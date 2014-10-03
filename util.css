@@ -1,0 +1,45 @@
+/*Propiedad que permite que se hereden las propiedades de ancho y alto*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/*Añadir esta clase al padre con hijos que están flotando para que 
+el primero adapte su altura a la de los hijos*/
+.cf:before, .cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+/*Añadir estas clases para centrar elementos en un eje o en ambos*/
+.centrary {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.centrarx {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.centrar {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Añadir esta clase para colocar elementos unos al lado de otros de manera que
+podamos repetir su estructura*/
+.media {margin:10px;}
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img, .media .imgExt img {display:block;}
+.media .imgExt{float:right; margin-left: 10px;margin-right:0;}
