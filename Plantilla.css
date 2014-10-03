@@ -1,0 +1,26 @@
+header, body, footer, div {
+	border: solid black 2px;
+}
+
+header {
+	width: auto;
+	height: 650px;
+}
+
+body {
+	width: auto;
+	height: 1080px;
+	margin: 0 auto;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#lsicons {
+	text-align: center;
+}
