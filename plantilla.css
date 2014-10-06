@@ -1,10 +1,15 @@
-header, body, footer, div {
+header, body, nav, footer, div {
 	border: solid black 2px;
+}
+nav{
+	width: auto;
+	height: 10%;
 }
 
 header {
 	width: auto;
-	height: 650px;
+	height: 90%;
+	text-align: center;
 }
 
 body {
@@ -13,14 +18,39 @@ body {
 	margin: 0 auto;
 }
 
-div {
-	width: 200px;
-	height: 230px;
-	display: inline-block;
-	margin-top: 40px;
-	margin-bottom: 40px;
+footer{
+	width: auto;
+	height: 10%;
 }
 
-#lsicons {
+.icons {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 5%;
+	margin-top: 20%;
+}
+
+.mainSection {
+	width: auto;
+	height: 60%;
 	text-align: center;
 }
+
+.book_Sect{
+	background-color: red;
+}
+
+.port_Sect{
+	background-color: blue;
+}
+
+.comic_Sect{
+	background-color: green;
+}
+
+.album_Sect{
+	background-color: yellow;
+}
+
+
