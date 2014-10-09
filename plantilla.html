@@ -4,24 +4,52 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="util.css">
 	<link rel="stylesheet" type="text/css" href="plantilla.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<script defer type="text/javascript" src="markdown.js"></script>
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
 <body>
-	<nav>
-		<div id=""></div>
+	<header id="_header" class="format">
+		<div class="viewport centrary">
+			<p>logbook</p>
+			<ul>
+		</div>
+		<nav id="_nav" class="nav_color">
+		<div class="">
+			<a href="" class="">log in</a>
+			<a href="" class="">sign up</a>
+			<a href="" class="">about us</a>
+		</div>
 	</nav>
-	<header>
-		<div class="icons"><a href="#book">Book</a></div>
-		<div class="icons"><a href="#port">Portfolio</a></div>
-		<div class="icons"><a href="#comic">Comic</a></div>
-		<div class="icons"><a href="#album">Photo Album</a></div>
-	</header>
-	<section id="book" class="mainSection book_Sect"></section>
-	<section id="port"class="mainSection port_Sect"></section>
-	<section id="comic"class="mainSection comic_Sect"></section>
-	<section id="album"class="mainSection album_Sect"></section>
+	</header>	
+	<section class="botones">
+		<div class="icons icon_img">
+			<img src="sources/icons/libro.png" class="centrary"/>
+			<a class="centrary" href="#book">Book</a>
+		</div>
+		<div class="icons icon_img">
+			<img src="sources/icons/stack.png" class="centrary"/>
+			<a class="centrary" href="#port">Portfolio</a>
+		</div>
+		<div class="icons icon_img">
+			<img src="sources/icons/draw.png" class="centrary"/>
+			<a class="centrary" href="#comic">Comic</a>
+		</div>
+		<div class="icons icon_img">
+			<img src="sources/icons/hardcover.png" class="centrary"/>
+			<a class="centrary" href="#album">Photo Album</a>
+		</div>
+	</section>
+	<section id="book" class="mainSection book_Sect">
+		<input id="input" class="markDown" align="top" onclick="marked(text)"/>
+		<div class="markDown"></div>
+	</section>
+	<section id="port" class="mainSection port_Sect"></section>
+	<section id="comic" class="mainSection comic_Sect"></section>
+	<section id="album" class="mainSection album_Sect"></section>
 </body>
-<footer>
+<footer class="nav_color footer_log">
+	<a href="#_header"><div class="box_foot verticaly"></div></a>
 </footer>
 </html>
