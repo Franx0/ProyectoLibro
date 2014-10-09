@@ -5,16 +5,26 @@ header, body, nav, footer, div {
 .format{
 	width: auto;
 	height: 55%;
-	background-color: #000000;
+	background-color: grey;
 }
-
-.viewport p{
+.titulo h1{
 	font-family: 'bonvenocflight';
-	font-size: 250px;
+	font-size: 240px;
 	color: #FFFFFF;
-	text-align: center;
+	margin-bottom: -30px;
 }
 
+.titulo p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 70px;
+	color: #FFFFFF;
+	
+}
+.titulo {
+	width: 1024px;
+	text-align: right;
+	margin: 0 auto;
+}
 nav{
 	width: 90%;
 	height: 6%;
@@ -28,6 +38,12 @@ nav{
 .nav_color{
 	background-color: #A0A0A0;
 	opacity: 0.5;
+}
+
+.float_right{
+	float: right;
+	padding-top: 15px;
+	padding-right: 50px;
 }
 
 .botones {
@@ -58,7 +74,17 @@ a{
 	height: 20%;
 	text-align: center;
 }
-
+.texto_nav{
+	font-family: 'bonvenocflight';
+	font-size: 150%;
+	color: #000000;
+}
+.link_nav {
+	padding-left: 50px;
+}
+a:visited {
+	color: black;
+}
 .icons {
 	width: 250px;
 	height: 250px;
