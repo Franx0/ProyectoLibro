@@ -1,0 +1,216 @@
+header, body, nav, footer, div {
+
+}
+
+.format{
+	width: auto;
+	height: 60%;
+	background-image: url('img/photo1.jpg');
+	background-size:cover;
+	}
+
+#fffoto {
+	height: 600px;
+	width: 100%;
+}
+
+.titulo {
+	width: 1024px;
+	text-align: right;
+	margin: 0 auto;
+}
+
+.titulo h1{
+	font-family: 'bonvenocflight';
+	font-size: 240px;
+	color: #22AFAB;
+	margin-bottom: -30px;
+}
+.textos_imp {
+	font-family: 'bonvenocflight';
+	font-size: 40px;
+	color: #22AFAB;
+	padding: 0 auto;
+	margin: 5% 10% 0 10%;
+}
+.titulo p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 70px;
+	color: #22AFAB;
+}
+
+nav{
+	width: 90%;
+	border-radius: 3em;
+	text-align: center;
+	position: fixed;
+	top: 2%;
+	left: 5%;
+}
+
+.nav_color{
+	background-color: #A0A0A0;
+	opacity: 0.5;
+}
+
+.float_right{
+	float: right;
+	padding:0.8% 5% 0.8% 0;
+}
+
+.botones {
+	width: auto;
+	height: 60%;
+	text-align: center;
+	margin-top: 9%;
+}
+
+body {
+	width: auto;
+	height: 1080px;
+	margin: 0 auto;
+}
+
+footer{
+	width: auto;
+	height: 10%;
+	position: fixed;
+	bottom: 0;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+
+.footer_log{
+	width: auto;
+	height: 20%;
+	text-align: center;
+}
+.texto_nav{
+	font-family: 'bonvenocflight';
+	font-size: 150%;
+	color: #000000;
+
+}
+.link_nav {
+	padding-left: 50px;
+	font-weight: bold;
+}
+.cent_img {
+	margin-top:20%;
+}
+.cent_txt {
+	margin-top:-40%;
+}
+.icons {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin: 2%;
+	background-color: #22AFAB;
+	border-radius: 50%;
+	font-family: 'bonvenocflight';
+	font-size: 180%;
+	-webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.markDown p {
+	font-family:'kaushan_scriptregular';
+	font-size: 24px;
+	padding: 2%;
+}
+.mainSection {
+	height: 60%;
+	text-align: center;
+}
+.markDown{
+	width: 35%;
+	height: 80%;
+	margin: 8% 1% 1% 1%;
+	display: inline-block;
+	vertical-align: top;
+}
+.menu {
+	font-family: 'bonvenocflight';
+	padding: 20px;
+	text-align:left;
+	margin: 8% 6% 1% 0;
+	display:inline-block;
+	width: 10%;
+	height: 80%;
+	background-color: grey;
+	border-radius: 15px;
+}
+.book_Sect{
+	background-color: #606060;
+}
+.port_Sect{
+	background-color: #C0C0C0;
+}
+
+.comic_Sect{
+	background-color: #606060;
+}
+
+.album_Sect{
+	background-color: #C0C0C0;
+}
+
+.box_foot{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+.a-btn{
+	-webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn span{
+    display:block;
+    color:#fff;
+    text-shadow:0px 1px 1px #606060;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    font-size: 42px;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn span:nth-child(1), 
+.a-btn span:nth-child(3){
+    opacity:0;
+}
+
+.a-btn:hover{
+    background-color:#C0C0C0;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+}
+.a-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.a-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+
