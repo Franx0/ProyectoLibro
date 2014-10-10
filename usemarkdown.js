@@ -1,17 +1,18 @@
 	var text=document.getElementById('input');
 	var result=document.getElementById('preview');
+	var change=document.getElementById('boton');
 
 text.onkeyup = function(){
 	var key=window.event.keycode;
 	result.innerHTML=marked(text.value);
-	deleteLetter();
 };
 
-function deleteLetter(){
-	var key=window.event.keycode;
-	if(key===8){
-		result.innerHTML=market(text.value);
+change.onclick = function(){
+	var get=document.getElementById('preview').classList;
+	if(get.contains('markDown2')){
+		get.remove('markdDown2');
+		get.add('markDown3');
 	}else{
-		result.innerHTML=marked(text.value);	
-	};
+		get.add('markDown2');
+	}
 };
