@@ -5,29 +5,38 @@ header, body, nav, footer, div {
 .format{
 	width: auto;
 	height: 55%;
-	background-color: grey;
+	background-image: url('img/photo1.jpg');
+	background-size:cover;
+	}
+
+#fffoto {
+	height: 600px;
+	width: 100%;
 }
+
+.titulo {
+	width: 1024px;
+	text-align: right;
+	margin: 0 auto;
+
+}
+
 .titulo h1{
 	font-family: 'bonvenocflight';
 	font-size: 240px;
-	color: #FFFFFF;
+	color: #22AFAB;
 	margin-bottom: -30px;
 }
 
 .titulo p{
 	font-family: 'kaushan_scriptregular';
 	font-size: 70px;
-	color: #FFFFFF;
-	
+	color: #22AFAB;
+
 }
-.titulo {
-	width: 1024px;
-	text-align: right;
-	margin: 0 auto;
-}
+
 nav{
 	width: 90%;
-	height: 6%;
 	border-radius: 3em;
 	text-align: center;
 	position: fixed;
@@ -42,8 +51,7 @@ nav{
 
 .float_right{
 	float: right;
-	padding-top: 15px;
-	padding-right: 50px;
+	padding:0.8% 5% 0.8% 0;
 }
 
 .botones {
@@ -68,6 +76,9 @@ footer{
 a{
 	text-decoration: none;
 }
+a:visited {
+	color: black;
+}
 
 .footer_log{
 	width: auto;
@@ -78,13 +89,13 @@ a{
 	font-family: 'bonvenocflight';
 	font-size: 150%;
 	color: #000000;
+
 }
 .link_nav {
 	padding-left: 50px;
+	font-weight: bold;
 }
-a:visited {
-	color: black;
-}
+
 .icons {
 	width: 250px;
 	height: 250px;
