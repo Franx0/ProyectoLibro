@@ -124,7 +124,6 @@ a:visited {
     transition:all 0.3s linear;
 }
 .markDown p {
-	font-family:'kaushan_scriptregular';
 	font-size: 24px;
 	padding: 2%;
 }
@@ -139,6 +138,19 @@ a:visited {
 	display: inline-block;
 	vertical-align: top;
 }
+
+.classButtons{ /*añadida por Fran*/
+	width: 8rem;
+	height: 2rem;
+	display: inline-block;
+	border: solid black 1px;
+	border-radius: 5rem ;
+}
+
+.activeButtons{ /*añadida por Fran*/
+	box-shadow: 0.15rem 0.10rem 0.10rem 0rem #22AFAB;
+}
+
 .menu {
 	font-family: 'bonvenocflight';
 	padding: 20px;
@@ -150,19 +162,20 @@ a:visited {
 	background-color: grey;
 	border-radius: 15px;
 }
+
 .book_Sect{
-	background-color: #606060;
+	background-color: #606060;/*clases repetidas???*/
 }
 .port_Sect{
-	background-color: #C0C0C0;
+	background-color: #C0C0C0;/*clases repetidas???*/
 }
 
 .comic_Sect{
-	background-color: #606060;
+	background-color: #606060;/*clases repetidas???*/
 }
 
 .album_Sect{
-	background-color: #C0C0C0;
+	background-color: #C0C0C0;/*clases repetidas???*/
 }
 
 .box_foot{

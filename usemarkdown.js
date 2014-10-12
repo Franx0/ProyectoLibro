@@ -1,18 +1,29 @@
-	var text=document.getElementById('input');
-	var result=document.getElementById('preview');
-	var change=document.getElementById('boton');
+var text=document.getElementById('input');
+var result=document.getElementById('preview');
+var change=document.getElementById('boton');
 
 text.onkeyup = function(){
-	var key=window.event.keycode;
 	result.innerHTML=marked(text.value);
 };
 
-change.onclick = function(){
-	var get=document.getElementById('preview').classList;
-	if(get.contains('markDown2')){
-		get.remove('markdDown2');
-		get.add('markDown3');
+var buttons=document.getElementById('button_container');
+var resultClass=result.classList;
+
+buttons.onclick=function(){
+	buttons.firstChild=buttonDefault();
+};
+
+function buttonDefault(){
+	if(resultClass.contains('default')){
+		resultClass.remove('default');
+		if(buttons.firstNode.classList.contains('activeButtons')){
+			console.log('hola');
+			buttons.firstNode.classList.remove('activeButtons');
+		}
 	}else{
-		get.add('markDown2');
+		resultClass.add('default');
+		console.log('adios');
+		buttons.firstNode.classList.add('activeButtons');
+		console.log('UWIN');
 	}
 };

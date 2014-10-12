@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
 	<script defer type="text/javascript" src="markdown.js"></script>
 	<script defer type="text/javascript" src="usemarkdown.js"></script>
+	<script defer type="text/javascript" src="setinterval.js"></script>
 	<meta charset="UTF-8">
 	<title>logbook</title>
 </head>
@@ -19,12 +20,12 @@
 			</div>
 		</div>
 		<nav id="_nav" class="nav_color texto_nav">
-		<div class="float_right">
-			<a href="" class="link_nav">log in</a>
-			<a href="" class="link_nav">sign up</a>
-			<a href="" class="link_nav">about us</a>
-		</div>
-	</nav>
+			<div class="float_right">
+				<a href="" class="link_nav">log in</a>
+				<a href="" class="link_nav">sign up</a>
+				<a href="" class="link_nav">about us</a>
+			</div>
+		</nav>
 	</header>	
 	<section class="botones">
 		<div class="icons a-btn">
@@ -69,8 +70,13 @@
 			<p>borrar</p>
 			<p>holahola</p>
 		</div>
-		<textarea id="input" class="markDown" align="top"></textarea>
+		<textarea id="input" class="markDown"></textarea>
 		<div id="preview" style="background-color:white" class="markDown"></div>
+		<div id="button_container">
+			<div class="default classButtons">logbook</div>
+			<div class="alex_regular classButtons">logbook</div>
+			<div class="kaushan_regular classButtons">logbook</div>
+		</div>
 	</section>
 
 	<section id="port" class="mainSection port_Sect">
