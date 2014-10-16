@@ -34,3 +34,18 @@
     font-style: normal;
 
 }
+
+.default{
+    font-family: 'helvetica';
+    font-size: 24px;
+}
+
+.alex_regular{
+    font-family: 'alex_brushregular';
+    font-size: 30px;
+}
+
+.kaushan_regular{
+    font-family: 'kaushan_scriptregular';
+    font-size: 24px;
+}

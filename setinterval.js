@@ -1,13 +1,18 @@
-window.onload = function() {
-    var photos=document.getElementByClassName('format');
-    var photos_array=['img/photo1.jpg', 'img/photo2.jpg', 'img/photo3.jpg', 'img/photo4.jpg'];
+window.onload =function(){
+	var header=document.getElementById("_header");
+	var photo1=("img/photo1.jpg");
+	var photo2=("img/photo2.jpg");
+	var photo3=("img/photo3.jpg");
+	var photo4=("img/photo4.jpg");
+	var photo5=("img/photo55.jpg");	
+	var photos=[photo2, photo3, photo4, photo5, photo1];
 	var index=0;
-    var interval = 5000;
+	var interval=5000;
 
-    function slide() {
-        photos.style.backgroundImage ="url('+ photos_array[index++%photos_array.length]+');";
-    };
-
-    setInterval(slide, interval);
-}
-
+	function slide(){
+		console.log("adios");
+		var chain="background-image: url('"+photos[index++%photos.length]+"')"+";"
+		header.style.cssText=chain;
+	};
+	setInterval(slide, interval);
+};
