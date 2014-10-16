@@ -7,6 +7,11 @@ header, body, nav, footer, div {
 	height: 60%;
 	background-image: url('img/photo1.jpg');
 	background-size:cover;
+	  -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 #fffoto {
