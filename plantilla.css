@@ -1,6 +1,9 @@
 header, body, nav, footer, div {
 
 }
+article {
+	display:inline-block;
+}
 
 .format{
 	width: auto;
@@ -129,6 +132,14 @@ a:visited {
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
 }
+.markDown{
+	width: 35%;
+	height: 80%;
+	margin: 8% 1% 1% 1%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #fff;
+}
 .markDown p {
 	font-size: 24px;
 	padding: 2%;
@@ -137,14 +148,6 @@ a:visited {
 	height: 60%;
 	text-align: center;
 }
-.markDown{
-	width: 35%;
-	height: 80%;
-	margin: 8% 1% 1% 1%;
-	display: inline-block;
-	vertical-align: top;
-}
-
 .classButtons{ /*añadida por Fran*/
 	width: 8rem;
 	height: 2rem;
@@ -169,19 +172,11 @@ a:visited {
 	border-radius: 15px;
 }
 
-.book_Sect{
-	background-color: #606060;/*clases repetidas???*/
+.a_Sect{
+	background-color: #606060;
 }
-.port_Sect{
-	background-color: #C0C0C0;/*clases repetidas???*/
-}
-
-.comic_Sect{
-	background-color: #606060;/*clases repetidas???*/
-}
-
-.album_Sect{
-	background-color: #C0C0C0;/*clases repetidas???*/
+.b_Sect{
+	background-color: #C0C0C0;
 }
 
 .box_foot{
@@ -232,7 +227,6 @@ a:visited {
     -moz-transform: scale(0);
     transform: scale(0);
 }
-
 .classboard{
 	width: 400px;
 	height: 300px;
