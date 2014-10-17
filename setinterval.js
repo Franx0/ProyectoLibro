@@ -10,7 +10,6 @@ window.onload =function(){
 	var interval=5000;
 
 	function slide(){
-		console.log("adios");
 		var chain="background-image: url('"+photos[index++%photos.length]+"')"+";"
 		header.style.cssText=chain;
 	};

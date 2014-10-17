@@ -139,6 +139,7 @@ a:visited {
 	display: inline-block;
 	vertical-align: top;
 	background-color: #fff;
+	cursor: pointer;
 }
 .markDown p {
 	font-size: 24px;

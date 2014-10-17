@@ -14,24 +14,39 @@ var texto2=document.getElementById('alex');
 var texto3=document.getElementById('kaushan');
 
 texto1.onclick=function(){
+	texto2.className=('alex_regular classButtons');
+	texto3.className=('kaushan_regular classButtons');
 	buttonDefault('default', texto1);
 };
 
 texto2.onclick=function(){
+	texto1.className=('default classButtons');
+	texto3.className=('kaushan_regular classButtons');
 	buttonDefault('alex_regular', texto2);
 };
 
 texto3.onclick=function(){
+	texto1.className=('default classButtons');
+	texto2.className=('alex_regular classButtons');
 	buttonDefault('kaushan_regular', texto3);
 };
 
 function buttonDefault(font, button){
+
 	if(resultClass.contains(font)){
-		resultClass.remove(font);
-		button.classList.remove('activeButtons');
+		result.className=('markDown');	
+		button.className=(font+' classButtons');
 	}
 	else{
-		resultClass.add(font);
-		button.classList.add('activeButtons');
+		result.className=(font+' markDown');
+		button.className=(font+' classButtons'+' activeButtons');
 	}
 };
+
+//Drawing variable
+var myBoard = new DrawingBoard.Board('proy_drawing');
+
+
+
+
+
