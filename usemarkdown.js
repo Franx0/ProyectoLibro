@@ -48,5 +48,3 @@ var myBoard = new DrawingBoard.Board('proy_drawing');
 
 
 
-
-

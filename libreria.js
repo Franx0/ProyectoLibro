@@ -1131,8 +1131,7 @@ function merge(obj) {
 /**
  * Marked
  */
-var getText=document.getElementById('input').value;
-var text=document.createTextNode('getText')
+
 function marked(src, opt, callback) {
   if (callback || typeof opt === 'function') {
     if (!callback) {
@@ -1230,7 +1229,7 @@ marked.setOptions = function(opt) {
 marked.defaults = {
   gfm: true,
   tables: true,
-  breaks: true,
+  breaks: false,
   pedantic: false,
   sanitize: false,
   smartLists: false,
@@ -1271,4 +1270,3 @@ if (typeof module !== 'undefined' && typeof exports === 'object') {
 }).call(function() {
   return this || (typeof window !== 'undefined' ? window : global);
 }());
-
