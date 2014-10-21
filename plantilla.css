@@ -235,3 +235,17 @@ a:visited {
 	background-color: #ffffff;
 	display: inline-block;
 }
+
+.login{
+	width: 200px;
+	height: 40px;
+	color: lightgrey;
+	margin: 20px;
+	font-family: 'bonvenocflight';
+}
+
+.login p {
+	color: #606060;
+	margin: 0;
+
+}
