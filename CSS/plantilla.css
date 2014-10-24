@@ -100,9 +100,6 @@ body {
 a{
 	text-decoration: none;
 }
-a:visited {
-	color: black;
-}
 .brand{
 	font-size: 1.2rem;
 	font-family: 'bonvenocflight';
@@ -119,12 +116,17 @@ a:visited {
 footer ul{
 	font-family: 'FontAwesome','bonvenocflight';
 	font-size: 1.4rem;
+	color: #202020;
 	line-height: 100%;
 	display: inline-block;
-	margin: 20px 50px;
+	margin: 20px 40px;
 }
 footer li {
 	display: inline-block;
+}
+footer a:hover{
+	color: #22AFAB;
+	font-weight: bold;
 }
 
 /*Animacion footer*/
