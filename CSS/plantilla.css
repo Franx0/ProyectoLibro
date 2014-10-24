@@ -100,6 +100,16 @@ body {
 a{
 	text-decoration: none;
 }
+a:link{
+	color: #000000;
+}
+a:visited{
+	color: #000000;
+}
+a:hover{
+	color:#22AFAB;
+	font-weight: bold;
+}
 .brand{
 	font-size: 1.2rem;
 	font-family: 'bonvenocflight';
@@ -124,11 +134,17 @@ footer ul{
 footer li {
 	display: inline-block;
 }
+
+footer a:visited{
+	color: #202020;
+}
+footer a:link{
+	color: #202020;
+}
 footer a:hover{
 	color: #22AFAB;
 	font-weight: bold;
 }
-
 /*Animacion footer*/
 footer:hover{
 	max-height: 20%;
