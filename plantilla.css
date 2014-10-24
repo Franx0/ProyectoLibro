@@ -34,6 +34,7 @@ article {
 	color: #22AFAB;
 	margin-bottom: -30px;
 }
+
 .textos_imp {
 	font-family: 'bonvenocflight';
 	font-size: 40px;
@@ -45,6 +46,7 @@ article {
 	font-family: 'kaushan_scriptregular';
 	font-size: 70px;
 	color: #22AFAB;
+
 }
 
 nav{
@@ -296,4 +298,71 @@ footer:hover{
 	height: 300px;
 	background-color: #ffffff;
 	display: inline-block;
+}
+.login{
+	width: 500px;
+	background-color: #22AFAB;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 40px;
+	padding-top: 6px;
+	-webkit-box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+	-moz-box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+	box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+}
+.login input{
+	width: 350px;
+	height: 40px;
+	font-family: 'FontAwesome', 'kaushan_scriptregular';
+	font-size: 22px;
+	color: #C0C0C0;
+	padding-left: 10px;
+	margin: 5px 0 15px 0;
+}
+
+.login ul {
+	padding-left: 0;
+	text-align: left;
+	width: 350px;
+	margin: 0 auto;
+}
+.login li {
+	color: #202020;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'bonvenocflight';
+	padding: 5px 0;
+	display: inline-block;
+}
+.login button {
+	background-color: #C0C0C0;
+	color: #202020;
+	font-family: 'bonvenocflight';
+	font-weight: bold;
+	font-size: 20px;
+	padding: 12px;
+	border-radius: 50%;
+	margin: 0 0 15px 0;
+-webkit-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+-moz-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+}
+.titulo2 {
+	width: 500px;
+	margin: 0 auto;
+	text-align: right;
+	margin: 20px auto;
+}
+
+.titulo2 h3{
+	font-family: 'bonvenocflight';
+	font-size: 110px;
+	color: #22AFAB;
+	margin: 0 10px 0 0;
+}
+.titulo2 p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 44px;
+	color: #22AFAB;
+	margin: 0 70px -60px 0;
 }
