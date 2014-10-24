@@ -1,6 +1,6 @@
 header, body, nav, footer, div {
-
 }
+
 article {
 	display:inline-block;
 }
@@ -80,11 +80,18 @@ body {
 	margin: 0 auto;
 }
 
-footer{
-	width: auto;
-	height: 10%;
+.footer{
+	width: 100%;
+	max-height: 0px;
 	position: fixed;
 	bottom: 0;
+	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
 }
 
 a{
@@ -93,12 +100,48 @@ a{
 a:visited {
 	color: black;
 }
-
-.footer_log{
-	width: auto;
-	height: 20%;
-	text-align: center;
+.brand{
+	font-size: 2rem;
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	margin-left: 7%;
 }
+
+
+footer ul{
+	font-family: 'bonvenocflight';
+	font-size: 1.5rem;
+	line-height: 150%;
+	display: inline-block;
+	float: right;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+/*Animacion footer*/
+footer:hover{
+	max-height: 20%;
+  	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
+}
+
+.foot_end{
+	max-height: 20%;
+  	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
+}
+
 .texto_nav{
 	font-family: 'bonvenocflight';
 	font-size: 150%;
@@ -141,10 +184,27 @@ a:visited {
 	background-color: #fff;
 	cursor: pointer;
 }
+
 .markDown p {
 	font-size: 24px;
 	padding: 2%;
 }
+
+.markDown h1{
+	font-size: 2em; 
+	margin: .67em 0;
+}
+
+.markDown h2{
+	font-size: 1.5em; 
+	margin: .75em 0;
+}
+
+.markDown h3{
+	font-size: 1.17em; 
+	margin: .83em 0;
+}
+
 .mainSection {
 	height: 60%;
 	text-align: center;
@@ -185,7 +245,9 @@ a:visited {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	background-color: #FFFFFF;
+	background-color: #A0A0A0;
+	margin: 0 auto;	
+	margin-top: -20px;
 }
 .a-btn{
 	-webkit-border-radius:50%;

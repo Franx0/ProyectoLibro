@@ -46,5 +46,17 @@ function buttonDefault(font, button){
 //Drawing variable
 var myBoard = new DrawingBoard.Board('proy_drawing');
 
+//Footer animation
+var foot=document.getElementsByClassName('footer');
 
+window.onscroll=function(event){
+	if((window.innerHeight+window.pageYOffset*0.06) >= document.body.offsetHeight){
+		foot[0].className=('footer foot_end nav_color');
+	}
+	else{
+		foot[0].className=('footer nav_color');
+	}
+};
+
+//Submit menu
 
