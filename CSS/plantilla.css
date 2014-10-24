@@ -87,6 +87,7 @@ body {
 	max-height: 0px;
 	position: fixed;
 	bottom: 0;
+	text-align:center;
 	-webkit-transition-property: max-height;
   	-webkit-transition-duration: .9s;
   	-moz-transition-property: max-height;
@@ -103,22 +104,27 @@ a:visited {
 	color: black;
 }
 .brand{
-	font-size: 2rem;
-	display: inline-block;
-	float: left;
-	margin-top: 5%;
-	margin-left: 7%;
+	font-size: 1.2rem;
+	font-family: 'bonvenocflight';
+	font-weight: bold;
+	margin-top: -10px;
+}
+.brandcopy{
+	font-size: 0.9rem;
+	font-family: 'bonvenocflight';
+	font-weight: bold;
+	margin-bottom:20px;
 }
 
-
 footer ul{
-	font-family: 'bonvenocflight';
-	font-size: 1.5rem;
-	line-height: 150%;
+	font-family: 'FontAwesome','bonvenocflight';
+	font-size: 1.4rem;
+	line-height: 100%;
 	display: inline-block;
-	float: right;
-	margin-left: 10%;
-	margin-right: 5%;
+	margin: 20px 50px;
+}
+footer li {
+	display: inline-block;
 }
 
 /*Animacion footer*/
