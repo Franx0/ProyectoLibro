@@ -1,0 +1,370 @@
+header, body, nav, footer, div {
+}
+
+article {
+	display:inline-block;
+}
+
+.format{
+	width: auto;
+	height: 60%;
+	background-image: url('img/photo1.jpg');
+	background-size:cover;
+	  -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+#fffoto {
+	height: 600px;
+	width: 100%;
+}
+
+.titulo {
+	width: 1024px;
+	text-align: right;
+	margin: 0 auto;
+}
+
+.titulo h1{
+	font-family: 'bonvenocflight';
+	font-size: 240px;
+	color: #22AFAB;
+	margin-bottom: -30px;
+}
+
+.textos_imp {
+	font-family: 'bonvenocflight';
+	font-size: 40px;
+	color: #22AFAB;
+	padding: 0 auto;
+	margin: 5% 10% 0 10%;
+}
+.titulo p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 70px;
+	color: #22AFAB;
+
+}
+
+nav{
+	width: 90%;
+	border-radius: 3em;
+	text-align: center;
+	position: fixed;
+	top: 2%;
+	left: 5%;
+}
+
+.nav_color{
+	background-color: #A0A0A0;
+	opacity: 0.5;
+}
+
+.float_right{
+	float: right;
+	padding:0.8% 5% 0.8% 0;
+}
+
+.botones {
+	background-color:white;
+	width: auto;
+	height: 60%;
+	text-align: center;
+	margin-top: 9%;
+}
+
+body {
+	width: auto;
+	height: 1080px;
+	margin: 0 auto;
+}
+
+.footer{
+	width: 100%;
+	max-height: 0px;
+	position: fixed;
+	bottom: 0;
+	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+.brand{
+	font-size: 2rem;
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+
+footer ul{
+	font-family: 'bonvenocflight';
+	font-size: 1.5rem;
+	line-height: 150%;
+	display: inline-block;
+	float: right;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+/*Animacion footer*/
+footer:hover{
+	max-height: 20%;
+  	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
+}
+
+.foot_end{
+	max-height: 20%;
+  	-webkit-transition-property: max-height;
+  	-webkit-transition-duration: .9s;
+  	-moz-transition-property: max-height;
+  	-moz-transition-duration: .9s;
+  	-o-transition-property: max-height;
+  	-o-transition-duration: .9s;
+  	-ms-transition-property: max-height;
+}
+
+.texto_nav{
+	font-family: 'bonvenocflight';
+	font-size: 150%;
+	color: #000000;
+
+}
+.link_nav {
+	padding-left: 50px;
+	font-weight: bold;
+}
+.cent_img {
+	margin-top:20%;
+}
+.cent_txt {
+	margin-top:-40%;
+}
+.icons {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin: 2%;
+	background-color: #22AFAB;
+	border-radius: 50%;
+	font-family: 'bonvenocflight';
+	font-size: 180%;
+	-webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.markDown{
+	width: 35%;
+	height: 80%;
+	margin: 8% 1% 1% 1%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.markDown p {
+	font-size: 24px;
+	padding: 2%;
+}
+
+.markDown h1{
+	font-size: 2em; 
+	margin: .67em 0;
+}
+
+.markDown h2{
+	font-size: 1.5em; 
+	margin: .75em 0;
+}
+
+.markDown h3{
+	font-size: 1.17em; 
+	margin: .83em 0;
+}
+
+.mainSection {
+	height: 60%;
+	text-align: center;
+}
+.classButtons{ /*añadida por Fran*/
+	width: 8rem;
+	height: 2rem;
+	display: inline-block;
+	border: solid black 1px;
+	border-radius: 5rem ;
+	cursor: pointer;
+}
+
+.activeButtons{ /*añadida por Fran*/
+	box-shadow: 0.15rem 0.10rem 0.10rem 0rem #22AFAB;
+}
+
+.menu {
+	font-family: 'bonvenocflight';
+	padding: 20px;
+	text-align:left;
+	margin: 8% 6% 1% 0;
+	display:inline-block;
+	width: 10%;
+	height: 80%;
+	background-color: grey;
+	border-radius: 15px;
+}
+
+.a_Sect{
+	background-color: #606060;
+}
+.b_Sect{
+	background-color: #C0C0C0;
+}
+
+.box_foot{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #A0A0A0;
+	margin: 0 auto;	
+	margin-top: -20px;
+}
+.a-btn{
+	-webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  0px 0px 1px 8px rgba(192,192,192, 0.4), 0px 0px 0px 9px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn span{
+    display:block;
+    color:#fff;
+    text-shadow:0px 1px 1px #606060;
+    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    font-size: 42px;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn span:nth-child(1), 
+.a-btn span:nth-child(3){
+    opacity:0;
+}
+
+.a-btn:hover{
+    background-color:#C0C0C0;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+    -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+    box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
+}
+.a-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.a-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.classboard{
+	width: 400px;
+	height: 300px;
+	background-color: #ffffff;
+	display: inline-block;
+}
+.login{
+	width: 500px;
+	background-color: #22AFAB;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 40px;
+	padding-top: 6px;
+	-webkit-box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+	-moz-box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+	box-shadow: 12px 12px 21px -8px rgba(18,18,18,0.44);
+}
+.login input{
+	width: 350px;
+	height: 40px;
+	font-family: 'FontAwesome', 'kaushan_scriptregular';
+	font-size: 22px;
+	color: #C0C0C0;
+	padding-left: 10px;
+	margin: 5px 0 15px 0;
+}
+
+.login ul {
+	padding-left: 0;
+	text-align: left;
+	width: 350px;
+	margin: 0 auto;
+}
+.login li {
+	color: #202020;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'bonvenocflight';
+	padding: 5px 0;
+	display: inline-block;
+}
+.button {
+	background-color: #C0C0C0;
+	color: #202020;
+	font-family: 'bonvenocflight';
+	font-weight: bold;
+	font-size: 20px;
+	padding: 12px;
+	border-radius: 50%;
+	display:inline-block;
+	width: 52px;
+	margin: 0 0 15px 0;
+	-webkit-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+	-moz-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+	box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+}
+.titulo2 {
+	width: 500px;
+	margin: 0 auto;
+	text-align: right;
+	margin: 20px auto;
+}
+
+.titulo2 h3{
+	font-family: 'bonvenocflight';
+	font-size: 110px;
+	color: #22AFAB;
+	margin: 0 10px 0 0;
+}
+.titulo2 p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 44px;
+	color: #22AFAB;
+	margin: 0 70px -60px 0;
+}
