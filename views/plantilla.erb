@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="util.css">
+	<link rel="stylesheet" type="text/css" href="plantilla.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="drawing/drawing.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script defer type="text/javascript" src="markdown.js"></script>
+	<script defer type="text/javascript" src="usemarkdown.js"></script>
+	<script defer type="text/javascript" src="setinterval.js"></script>
+	<script language= "javascript" type="text/javascript" src="drawing/jquery-2.1.1.min.js"> </script>
+	<script language= "javascript" type="text/javascript" src="drawing/dist/drawingboard.js"> </script>
+	<meta charset="UTF-8">
+	<title>logbook</title>
+</head>
+<body>
+	<header id="_header" class="format">
+		<div class="centrary">
+			<div class="titulo">
+				<h1>logbook</h1>
+				<p>create your own story</p>
+			</div>
+		</div>
+		<nav id="_nav" class="nav_color texto_nav">
+			<div class="float_right">
+				<a href="" class="link_nav">log in</a>
+				<a href="" class="link_nav">sign up</a>
+				<a href="" class="link_nav">about us</a>
+			</div>
+		</nav>
+	</header>	
+	<section class="botones">
+	<ul>
+		<li class="icons a-btn">
+			<a class="a-btn" href="#book">
+				<span></span>
+                <span class="cent_img"><img src="img/cerrado.png" alt="cerrado"></span>
+                <span class="cent_txt">album</span>
+			</a>
+		</li>
+		<li class="icons a-btn">
+			<a class="a-btn" href="#port">
+				<span></span>
+                <span class="cent_img"><img src="img/open.png" alt="open"></span>
+                <span class="cent_txt">portfolio</span>
+			</a>
+		</li>
+		<li class="icons a-btn">
+			<a class="a-btn" href="#comic">
+				<span></span>
+                <span class="cent_img"><img src="img/lapiz.png" alt="lapiz"></span>
+                <span class="cent_txt">comic</span>
+			</a>
+		</li>
+		<li class="icons a-btn">
+			<a class="a-btn" href="#album">
+				<span></span>
+                <span class="cent_img"><img src="img/album.png" alt="album"></span>
+                <span class="cent_txt">libro</span>
+			</a>
+		</li>
+	</ul>
+		<p class="textos_imp">Haz click sobre el opción que más te guste para comenzar tu propio proyecto!</p>
+	</section>
+	<section id="book" class="mainSection a_Sect">
+		<aside class="menu">
+			<p>titulo</p>
+			<div id="button_container">
+				<div id="helvetica" class="default classButtons">logbook</div>
+				<div id="alex" class="alex_regular classButtons">logbook</div>
+				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
+			</div>
+		</aside>
+			<textarea id="input" class="markDown"></textarea>
+			<div id="preview" class="markDown"></div>
+	</section>
+
+	<section id="port" class="mainSection b_Sect">
+		<aside class="menu">
+			<p>titulo</p>
+			<div id="button_container">
+				<div id="helvetica" class="default classButtons">logbook</div>
+				<div id="alex" class="alex_regular classButtons">logbook</div>
+				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
+			</div>
+		</aside>
+			<div id="proy_drawing" class="drawing_board"></div>
+
+	</section>
+
+	<section id="comic" class="mainSection a_Sect">
+		<div class="menu">
+			<p>titulo</p>
+			<p>autor</p>
+			<p>estilo</p>
+			<p>color</p>
+			<p>guardar</p>
+			<p>borrar</p>
+			<p>holahola</p>
+		</div>
+		<textarea id="input2" class="markDown" align="top"></textarea>
+		<div id="preview2" style="background-color:white" class="markDown"></div>
+	
+
+	<section id="album" class="mainSection b_Sect">
+		<div class="menu">
+			<p>titulo</p>
+			<p>autor</p>
+			<p>estilo</p>
+			<p>color</p>
+			<p>guardar</p>
+			<p>borrar</p>
+			<p>holahola</p>
+		</div>
+		<textarea id="input4" class="markDown" align="top"></textarea>
+		<div id="preview" style="background-color:white" class="markDown"></div>
+	</section>
+</body>
+<footer class="nav_color footer_log">
+	<a href="#_header"><div class="box_foot verticaly"></div></a>
+</footer>
+</html>

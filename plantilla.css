@@ -272,7 +272,7 @@ a:visited {
 	padding: 5px 0;
 	display: inline-block;
 }
-.login button {
+.button {
 	background-color: #C0C0C0;
 	color: #202020;
 	font-family: 'bonvenocflight';
@@ -280,10 +280,12 @@ a:visited {
 	font-size: 20px;
 	padding: 12px;
 	border-radius: 50%;
+	display:inline-block;
+	width: 52px;
 	margin: 0 0 15px 0;
--webkit-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
--moz-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+	-webkit-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+	-moz-box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
+	box-shadow: 6px 11px 9px -9px rgba(0,0,0,0.66);
 }
 .titulo2 {
 	width: 500px;
