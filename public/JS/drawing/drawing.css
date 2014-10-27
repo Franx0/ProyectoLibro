@@ -2,7 +2,7 @@ body {
 
 }
 .drawing_board{
-	height: 80%;
+	height: 75%;
 	width: 65%;
 	background-color: lightgrey;
 	margin: 8% 1% 1% 1%;
@@ -16,7 +16,7 @@ body {
 
 .drawing-board-utils-hidden, .drawing-board-controls-hidden { display: none !important; }
 
-.drawing-board { position: relative; display: inline-block; }
+.drawing-board { position: relative; display: inline-block; margin-top: 30px; }
 
 .drawing-board-canvas-wrapper { position: relative; margin: 0; border: 5px solid blue; }
 

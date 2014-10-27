@@ -12,6 +12,10 @@
 	<script defer type="text/javascript" src="JS/setinterval.js"></script>
 	<script language= "javascript" type="text/javascript" src="JS/drawing/jquery-2.1.1.min.js"> </script>
 	<script language= "javascript" type="text/javascript" src="JS/drawing/dist/drawingboard.js"> </script>
+	<script language= "javascript" type="text/javascript" src="drawing/jquery-2.1.1.min.js"> </script>
+	<script language= "javascript" type="text/javascript" src="drawing/dist/drawingboard.js"> </script>
+	<script type="text/javascript" src="JS/menuthing.js"></script>
+	<script type='text/javascript' src='JS/jquery-1.11.1.min.js'></script>
 	<meta charset="UTF-8">
 	<title>logbook</title>
 </head>
@@ -25,9 +29,9 @@
 		</div>
 		<nav id="_nav" class="nav_color texto_nav">
 			<div class="float_right">
-				<a href="" class="link_nav">log in</a>
-				<a href="" class="link_nav">sign up</a>
-				<a href="" class="link_nav">about us</a>
+				<a href="login.html" class="link_nav">log in</a>
+				<a href="registro.html" class="link_nav">sign up</a>
+				<a href="#footer" class="link_nav">about us</a>
 			</div>
 		</nav>
 	</header>	
@@ -37,88 +41,99 @@
 			<a class="a-btn" href="#book">
 				<span></span>
                 <span class="cent_img"><img src="CSS/img/cerrado.png" alt="cerrado"></span>
-                <span class="cent_txt">album</span>
+                <span class="cent_txt">Book</span>
 			</a>
 		</li>
 		<li class="icons a-btn">
 			<a class="a-btn" href="#port">
 				<span></span>
                 <span class="cent_img"><img src="CSS/img/open.png" alt="open"></span>
-                <span class="cent_txt">portfolio</span>
+                <span class="cent_txt">Portfolio</span>
 			</a>
 		</li>
 		<li class="icons a-btn">
-			<a class="a-btn" href="#comic">
+			<a class="a-btn" href="#port">
 				<span></span>
                 <span class="cent_img"><img src="CSS/img/lapiz.png" alt="lapiz"></span>
-                <span class="cent_txt">comic</span>
+                <span class="cent_txt">Draw</span>
 			</a>
 		</li>
 		<li class="icons a-btn">
 			<a class="a-btn" href="#album">
 				<span></span>
                 <span class="cent_img"><img src="CSS/img/album.png" alt="album"></span>
-                <span class="cent_txt">libro</span>
+                <span class="cent_txt">Album</span>
 			</a>
 		</li>
 	</ul>
 		<p class="textos_imp">Haz click sobre el opción que más te guste para comenzar tu propio proyecto!</p>
 	</section>
 	<section id="book" class="mainSection a_Sect">
-		<aside class="menu">
-			<p>titulo</p>
-			<div id="button_container">
-				<div id="helvetica" class="default classButtons">logbook</div>
-				<div id="alex" class="alex_regular classButtons">logbook</div>
-				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
-			</div>
-		</aside>
-			<textarea id="input" class="markDown"></textarea>
-			<div id="preview" class="markDown"></div>
+	<aside class="menu">
+	    <nav class='sidebar sidef sidebar-menu-collapsed'>
+	      <a  id='justify-icon'>
+	        <i class="fa fa-barcode"></i>
+	      </a>
+	 		<ul>
+		        <li>
+		          <a class='expandable'>
+					<i class="fa fa-copyright"></i>
+					<span class='expanded-element'>TEXT</span>
+		          </a>
+		        </li>
+		        <li>
+		          <a class='expandable'>
+					<i class="fa fa-comments"></i>
+		            <span class='expanded-element'>TEXT</span>
+		          </a>
+		        </li>
+		        <li>
+		          <a class='expandable'>
+					<i class="fa fa-heart"></i> 
+					<span class='expanded-element'>TEXT</span>
+		          </a>
+		      	</li>
+	      </ul>
+		<div class="menu" id="button_container">
+			<div id="helvetica" class="default classButtons">logbook</div>
+			<div id="alex" class="alex_regular classButtons">logbook</div>
+			<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
+		</div>
+	    </nav>
+	</aside>
+		<textarea id="input" class="markDown"></textarea>
+		<div id="preview" class="markDown"></div>
 	</section>
-
 	<section id="port" class="mainSection b_Sect">
-		<aside class="menu">
-			<p>titulo</p>
-			<div id="button_container">
-				<div id="helvetica" class="default classButtons">logbook</div>
-				<div id="alex" class="alex_regular classButtons">logbook</div>
-				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
-			</div>
-		</aside>
-			<div id="proy_drawing" class="drawing_board"></div>
-
-	</section>
-
-	<section id="comic" class="mainSection a_Sect">
-		<div class="menu">
-			<p>titulo</p>
-			<p>autor</p>
-			<p>estilo</p>
-			<p>color</p>
-			<p>guardar</p>
-			<p>borrar</p>
-			<p>holahola</p>
-		</div>
-		<textarea id="input2" class="markDown" align="top"></textarea>
-		<div id="preview2" style="background-color:white" class="markDown"></div>
-	
-
-	<section id="album" class="mainSection b_Sect">
-		<div class="menu">
-			<p>titulo</p>
-			<p>autor</p>
-			<p>estilo</p>
-			<p>color</p>
-			<p>guardar</p>
-			<p>borrar</p>
-			<p>holahola</p>
-		</div>
-		<textarea id="input4" class="markDown" align="top"></textarea>
-		<div id="preview" style="background-color:white" class="markDown"></div>
+		<div id="proy_drawing" class="drawing_board"></div>
 	</section>
 </body>
-<footer class="footer nav_color">
+<footer id="footer" class="footer nav_color">
 	<a href="#_header"><div class="box_foot verticaly"></div></a>
+	<p class="brand">TEAMWORK</p>
+	<ul><a href="http://estelapedrero.com">miguel angel herias</a>
+		<li><a href="">&#xf099;</a></li>
+		<li><a href="https://github.com/KiwiPlus">&#xf09b;</a></li>
+		<li><a href="https://github.com/Franx0">&#xf0e1;</a></li>
+	</ul>
+	<ul><a href="https://soundcloud.com/franx0-1">francisco moya</a>
+		<li><a href="https://twitter.com/Franxo06">&#xf099;</a></li>
+		<li><a href="https://github.com/Franx0">&#xf09b;</a></li>
+		<li><a href="https://www.linkedin.com/pub/fran-moya/57/876/346">&#xf0e1;</a></li>
+	</ul>
+	<ul><a href="http://estelapedrero.com">estela pedrero</a>
+		<li><a href="http://twitter.com/sala_de_star">&#xf099;</a></li>
+		<li><a href="https://github.com/estelapedrero">&#xf09b;</a></li>
+		<li><a href="https://www.linkedin.com/in/estelapedrero">&#xf0e1;</a></li>
+	</ul>
+	<p class="brandcopy">&copylogbook</p>
+	<!--
+Esto era una flecha que te regresaba a top
+	<div id= "fin" class= "nav_color"></div>
+<footer class="foosadter_log">
+	<a href="#_header"><div class= "uparro"></div></a>
+	<a href="#fin"><div class= "downarro"></div></a>
+</footer class="downarro">
+-->
 </footer>
 </html>

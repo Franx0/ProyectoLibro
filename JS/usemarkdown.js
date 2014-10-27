@@ -50,7 +50,7 @@ var myBoard = new DrawingBoard.Board('proy_drawing');
 var foot=document.getElementsByClassName('footer');
 
 window.onscroll=function(event){
-	if((window.innerHeight+window.pageYOffset*0.25) >= document.body.offsetHeight){
+	if((window.innerHeight+window.pageYOffset*0.057) >= document.body.offsetHeight){
 		foot[0].className=('footer foot_end nav_color');
 	}
 	else{

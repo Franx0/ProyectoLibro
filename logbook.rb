@@ -6,6 +6,11 @@ get '/'do
 	erb :plantilla
 end
 
-get '/login' do
+get '/registro.html' do
+	erb :registro
+end
+
+get '/login.html' do
 	erb :login
 end
+
