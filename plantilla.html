@@ -12,6 +12,9 @@
 	<script defer type="text/javascript" src="JS/setinterval.js"></script>
 	<script language= "javascript" type="text/javascript" src="drawing/jquery-2.1.1.min.js"> </script>
 	<script language= "javascript" type="text/javascript" src="drawing/dist/drawingboard.js"> </script>
+	<script type="text/javascript" src="JS/menuthing.js"></script>
+	<script type='text/javascript' src='JS/jquery-1.11.1.min.js'></script>
+
 	<meta charset="UTF-8">
 	<title>logbook</title>
 </head>
@@ -65,27 +68,47 @@
 		<p class="textos_imp">Haz click sobre el opción que más te guste para comenzar tu propio proyecto!</p>
 	</section>
 	<section id="book" class="mainSection a_Sect">
-		<aside class="menu">
-			<p>titulo</p>
-			<div id="button_container">
-				<div id="helvetica" class="default classButtons">logbook</div>
-				<div id="alex" class="alex_regular classButtons">logbook</div>
-				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
-			</div>
-		</aside>
-			<textarea id="input" class="markDown"></textarea>
-			<div id="preview" class="markDown"></div>
+	<aside class="menu">
+	    <nav class='sidebar sidef sidebar-menu-collapsed'>
+	      <a  id='justify-icon'>
+	        <i class="fa fa-barcode"></i>
+	      </a>
+	 		<ul>
+	        <li>
+	          <a class='expandable'>
+				<i class="fa fa-copyright"></i>
+				<span class='expanded-element'>TEXT</span>
+	          </a>
+	        </li>
+	        <li>
+	          <a class='expandable'>
+				<i class="fa fa-comments"></i>
+	            <span class='expanded-element'>TEXT</span>
+	          </a>
+	        </li>
+	        <li>
+	          <a class='expandable'>
+				<i class="fa fa-heart"></i> 
+				<span class='expanded-element'>TEXT</span>
+	          </a>
+	      	</li>
+	      </ul>
+
+		<div class="menu" id="button_container">
+			<div id="helvetica" class="default classButtons">logbook</div>
+			<div id="alex" class="alex_regular classButtons">logbook</div>
+			<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
+		</div>
+	    </nav>
+	</aside>
+		<textarea id="input" class="markDown"></textarea>
+		<div id="preview" class="markDown"></div>
 	</section>
 
 	<section id="port" class="mainSection b_Sect">
-		<aside class="menu">
-			<p>titulo</p>
-			<div id="button_container">
-				<div id="helvetica" class="default classButtons">logbook</div>
-				<div id="alex" class="alex_regular classButtons">logbook</div>
-				<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
-			</div>
-		</aside>
+	
+
+
 			<div id="proy_drawing" class="drawing_board"></div>
 	</section>
 </body>
@@ -109,5 +132,13 @@
 		<li><a href="https://www.linkedin.com/in/estelapedrero">&#xf0e1;</a></li>
 	</ul>
 	<p class="brandcopy">&copylogbook</p>
+	<!--
+Esto era una flecha que te regresaba a top
+	<div id= "fin" class= "nav_color"></div>
+<footer class="foosadter_log">
+	<a href="#_header"><div class= "uparro"></div></a>
+	<a href="#fin"><div class= "downarro"></div></a>
+</footer class="downarro">
+-->
 </footer>
 </html>

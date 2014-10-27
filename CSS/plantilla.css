@@ -238,7 +238,6 @@ footer:hover{
 .classButtons{ /*añadida por Fran*/
 	width: 8rem;
 	height: 2rem;
-	display: inline-block;
 	border: solid black 1px;
 	border-radius: 5rem ;
 	cursor: pointer;
@@ -250,14 +249,10 @@ footer:hover{
 
 .menu {
 	font-family: 'bonvenocflight';
-	padding: 20px;
-	text-align:left;
+	padding: 5px;
 	margin: 8% 6% 1% 0;
 	display:inline-block;
-	width: 10%;
-	height: 80%;
-	background-color: grey;
-	border-radius: 15px;
+	height:80%;
 }
 
 .a_Sect{
@@ -392,3 +387,102 @@ footer:hover{
 	color: #22AFAB;
 	margin: 0 70px -60px 0;
 }
+/* BOTONES Y UPARROW
+
+
+
+*/
+
+
+
+.downarro {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid gray;
+}
+.uparro {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid gray;
+
+}
+
+
+/* cambios a barra lateral 
+
+*/
+
+nav.sidef-menu-collapsed {
+  width: 50px; 
+}
+nav.sidef-menu-expanded {
+  width: 106px; 
+}
+nav.sidef {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background: none repeat scroll 0 0 gray;
+  color: white;
+  padding: 20px 10px; 
+  margin: 8% 6% 1% 0px;
+  height: 80%;
+  font-family: "bonvenocflight";
+
+}
+nav.sidef a#justify-icon 
+  outline: 0;
+  color: white;
+  font-size: 24px;
+  font-style: normal; 
+}
+
+nav.sidef ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px; 
+}
+nav.sidef ul li {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none; 
+}
+nav.sidef ul li a.expandable {
+  outline: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 20px; 
+}
+nav.sidef ul li a.expandable:hover {
+  color: #bbbbbb; 
+}
+nav.sidef ul li a.expandable span.expanded-element {
+  margin-left: 2px;
+  display: none;
+  font-size: 11px;
+  position: relative;
+  bottom: 2px; 
+}
+nav.sidef ul li.active {
+  background: none repeat scroll 0 0 black;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: -4px;
+  padding: 4px; 
+}
+nav.sidef ul li.active a.expandable {
+  color: white !important; 
+}
+nav.sidef ul li.active a.expandable:hover {
+  color: white !important; 
+}
+.point {
+	cursor:pointer;
+}
+
