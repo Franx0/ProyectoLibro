@@ -5,8 +5,9 @@ require 'pry'
 registered = false
 
 get '/'do
+
 	@registered=registered
-	@title=""
+	@name=params[:nickname]
 	erb :plantilla
 
 end
@@ -39,6 +40,6 @@ post '/login' do
 	else
 		erb :plantilla
 	end
-	
+
 end
 
