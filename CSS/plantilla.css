@@ -459,6 +459,7 @@ aside.sidef ul li a.expandable {
   color: white;
   text-decoration: none;
   font-size: 20px; 
+  padding: 15px;
 }
 aside.sidef ul li a.expandable:hover {
   color: #bbbbbb; 
