@@ -237,15 +237,15 @@ footer:hover{
 	text-align: center;
 }
 .classButtons{ /*añadida por Fran*/
-	width: 8rem;
-	height: 2rem;
-	border: solid black 1px;
+	width: 50px;
+	height: 20px;
 	border-radius: 5rem ;
 	cursor: pointer;
 }
 
 .activeButtons{ /*añadida por Fran*/
 	box-shadow: 0.15rem 0.10rem 0.10rem 0rem #22AFAB;
+	font-size: 14px;
 }
 
 .menu {
@@ -430,57 +430,57 @@ nav.sidef {
   height: 100%;
   background: none repeat scroll 0 0 gray;
   color: white;
-  padding: 20px 10px; 
+  padding: 60px 10px 0px 10px; 
   margin: 8% 6% 1% 0px;
   height: 80%;
   font-family: "bonvenocflight";
 
 }
-nav.sidef a#justify-icon 
+aside.sidef a#justify-icon {
   outline: 0;
   color: white;
   font-size: 24px;
   font-style: normal; 
 }
 
-nav.sidef ul {
+aside.sidef ul {
   margin: 0;
   padding: 0;
   margin-top: 60px; 
 }
-nav.sidef ul li {
+aside.sidef ul li {
   margin: 0;
   padding: 0;
   margin-top: 20px;
   list-style-type: none; 
 }
-nav.sidef ul li a.expandable {
+aside.sidef ul li a.expandable {
   outline: 0;
   color: white;
   text-decoration: none;
   font-size: 20px; 
 }
-nav.sidef ul li a.expandable:hover {
+aside.sidef ul li a.expandable:hover {
   color: #bbbbbb; 
 }
-nav.sidef ul li a.expandable span.expanded-element {
+aside.sidef ul li a.expandable span.expanded-element {
   margin-left: 2px;
   display: none;
   font-size: 11px;
   position: relative;
   bottom: 2px; 
 }
-nav.sidef ul li.active {
+aside.sidef ul li.active {
   background: none repeat scroll 0 0 black;
   border-radius: 4px;
   text-align: center;
   margin-left: -4px;
   padding: 4px; 
 }
-nav.sidef ul li.active a.expandable {
+aside.sidef ul li.active a.expandable {
   color: white !important; 
 }
-nav.sidef ul li.active a.expandable:hover {
+aside.sidef ul li.active a.expandable:hover {
   color: white !important; 
 }
 .point {
