@@ -28,11 +28,20 @@
 			</div>
 		</div>
 		<nav id="_nav" class="nav_color texto_nav">
+
+			<% if @registered %>
 			<div class="float_right">
-				<a href="login.html" class="link_nav">log in</a>
-				<a href="registro.html" class="link_nav">sign up</a>
+				<p class="link_nav">Welcome <%= @name %></p>
+			</div>
+			
+			<% else %>
+			<div class="float_right">
+				<a href="login" class="link_nav" name="user">log in</a>
+				<a href="registro" class="link_nav" name="password">sign up</a>
 				<a href="#footer" class="link_nav">about us</a>
 			</div>
+			<% end %>
+
 		</nav>
 	</header>	
 	<section class="botones">

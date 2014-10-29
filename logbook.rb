@@ -1,16 +1,44 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require 'pry'
 
+registered = false
 
 get '/'do
+	@registered=registered
+	@title=""
 	erb :plantilla
+
 end
 
-get '/registro.html' do
+get '/registro' do
+
 	erb :registro
+
 end
 
-get '/login.html' do
+post '/registro' do
+
+	erb :plantilla
+
+end
+
+get '/login' do
+
 	erb :login
+
+end
+
+post '/login' do
+	
+	@name=params[:nickname]
+	@password=params[:pwd]
+	if(@name == "usuario1" && @password == "password1")
+		registered = true
+		redirect '/'
+	else
+		erb :plantilla
+	end
+	
 end
 
