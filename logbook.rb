@@ -6,14 +6,14 @@ registered = false
 
 
 get '/'do
-<<<<<<< HEAD
+
 	@name=params[:nickname]
 	@registered=registered
-=======
+
 
 	@registered=registered
 	@name=params[:nickname]
->>>>>>> d3be17a38cc18579e35858f43919025cc2e50cfc
+
 	erb :plantilla
 
 end
