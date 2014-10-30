@@ -209,11 +209,13 @@ footer:hover{
 	vertical-align: top;
 	background-color: #fff;
 	cursor: pointer;
+	word-wrap:break-word;
 }
 
 .markDown p {
 	font-size: 24px;
 	padding: 2%;
+	word-wrap:break-word;
 }
 
 .markDown h1{
@@ -243,7 +245,7 @@ footer:hover{
 }
 
 .activeButtons{ /*añadida por Fran*/
-	box-shadow: 0.15rem 0.10rem 0.10rem 0rem #22AFAB;
+	color: #22AFAB;
 	font-size: 14px;
 }
 
@@ -466,7 +468,6 @@ aside.sidef ul li a.expandable:hover {
 aside.sidef ul li a.expandable span.expanded-element {
   margin-left: 2px;
   display: none;
-  font-size: 11px;
   position: relative;
   bottom: 2px; 
 }
