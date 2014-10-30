@@ -4,9 +4,10 @@ require 'pry'
 
 registered = false
 
+
 get '/'do
+	@name=params[:nickname]
 	@registered=registered
-	@title=""
 	erb :plantilla
 
 end
