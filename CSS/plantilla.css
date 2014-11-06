@@ -209,6 +209,7 @@ footer:hover{
 	vertical-align: top;
 	background-color: #fff;
 	cursor: pointer;
+	word-wrap: break-word;
 }
 
 .markDown p {
