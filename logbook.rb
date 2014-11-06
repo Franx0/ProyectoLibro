@@ -2,10 +2,11 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'pry'
 
+registered=true
+
 get '/'do
 
 	@name=params[:nickname]
-
 	erb :plantilla
 
 end
@@ -29,14 +30,15 @@ get '/login' do
 end
 
 post '/login' do
-	
+
 	@name=params[:nickname]
 	@password=params[:pwd]
 	if(@name == "usuario1" && @password == "password1")
+			puts 'lakaka'
 		registered = true
 		redirect '/'
 	else
-		erb :plantilla
+		erb :login
 	end
 
 end
