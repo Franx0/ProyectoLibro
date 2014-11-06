@@ -12,10 +12,7 @@
 	<script defer type="text/javascript" src="JS/setinterval.js"></script>
 	<script language= "javascript" type="text/javascript" src="JS/drawing/jquery-2.1.1.min.js"> </script>
 	<script language= "javascript" type="text/javascript" src="JS/drawing/dist/drawingboard.js"> </script>
-	<script language= "javascript" type="text/javascript" src="drawing/jquery-2.1.1.min.js"> </script>
-	<script language= "javascript" type="text/javascript" src="drawing/dist/drawingboard.js"> </script>
 	<script type="text/javascript" src="JS/menuthing.js"></script>
-	<script type='text/javascript' src='JS/jquery-1.11.1.min.js'></script>
 	<meta charset="UTF-8">
 	<title>logbook</title>
 </head>
@@ -28,20 +25,11 @@
 			</div>
 		</div>
 		<nav id="_nav" class="nav_color texto_nav">
-
-			<% if @registered %>
 			<div class="float_right">
-				<p class="link_nav">Welcome <%= @name %></p>
-			</div>
-			
-			<% else %>
-			<div class="float_right">
-				<a href="login" class="link_nav" name="user">log in</a>
-				<a href="registro" class="link_nav" name="password">sign up</a>
+				<a href="login.html" class="link_nav">log in</a>
+				<a href="registro.html" class="link_nav">sign up</a>
 				<a href="#footer" class="link_nav">about us</a>
 			</div>
-			<% end %>
-
 		</nav>
 	</header>	
 	<section class="botones">
@@ -53,13 +41,7 @@
                 <span class="cent_txt">Book</span>
 			</a>
 		</li>
-		<li class="icons a-btn">
-			<a class="a-btn" href="#port">
-				<span></span>
-                <span class="cent_img"><img src="CSS/img/open.png" alt="open"></span>
-                <span class="cent_txt">Portfolio</span>
-			</a>
-		</li>
+
 		<li class="icons a-btn">
 			<a class="a-btn" href="#port">
 				<span></span>
@@ -67,47 +49,35 @@
                 <span class="cent_txt">Draw</span>
 			</a>
 		</li>
-		<li class="icons a-btn">
-			<a class="a-btn" href="#album">
-				<span></span>
-                <span class="cent_img"><img src="CSS/img/album.png" alt="album"></span>
-                <span class="cent_txt">Album</span>
-			</a>
-		</li>
+	
 	</ul>
 		<p class="textos_imp">Haz click sobre el opción que más te guste para comenzar tu propio proyecto!</p>
 	</section>
 	<section id="book" class="mainSection a_Sect">
-	<aside class="menu">
+	<aside class="menu sidebar sidef sidebar-menu-collapsed">
 	    <nav class='sidebar sidef sidebar-menu-collapsed'>
-	      <a  id='justify-icon'>
-	        <i class="fa fa-barcode"></i>
-	      </a>
-	 		<ul>
+	        <i id='justify-icon' class="fa fa-barcode"></i>
+	 		<ul class='sidebar sidef sidebar-menu-collapsed'>
 		        <li>
 		          <a class='expandable'>
 					<i class="fa fa-copyright"></i>
-					<span class='expanded-element'>TEXT</span>
+					<span id="helvetica" class="default classButtons expanded-element ">a b c</span>
 		          </a>
 		        </li>
 		        <li>
 		          <a class='expandable'>
 					<i class="fa fa-comments"></i>
-		            <span class='expanded-element'>TEXT</span>
+		            <span id="alex" class="classButtons expanded-element alex_regular ">a b c</span>
 		          </a>
 		        </li>
 		        <li>
 		          <a class='expandable'>
 					<i class="fa fa-heart"></i> 
-					<span class='expanded-element'>TEXT</span>
+					<span id="kaushan" class="classButtons expanded-element kaushan_regular">a b c</span>
 		          </a>
 		      	</li>
-	      </ul>
-		<div class="menu" id="button_container">
-			<div id="helvetica" class="default classButtons">logbook</div>
-			<div id="alex" class="alex_regular classButtons">logbook</div>
-			<div id="kaushan" class="kaushan_regular classButtons">logbook</div>
-		</div>
+	      </ul>			
+
 	    </nav>
 	</aside>
 		<textarea id="input" class="markDown"></textarea>
