@@ -2,10 +2,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'pry'
 
-<<<<<<< HEAD
-=======
-registered=true
->>>>>>> 47d2731ee81e288d8957463d63c04c5a75936b39
+
 
 get '/'do
 
