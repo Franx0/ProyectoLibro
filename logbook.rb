@@ -1,21 +1,10 @@
 require 'sinatra'
 require 'sinatra/reloader'
-require 'sinatra/session'
 require 'pry'
-
-
-registered = false
 
 
 get '/'do
 
-	session!
-
-	@name=params[:nickname]
-	@registered=registered
-
-
-	@registered=registered
 	@name=params[:nickname]
 
 	erb :plantilla
