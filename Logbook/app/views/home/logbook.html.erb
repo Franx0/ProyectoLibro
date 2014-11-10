@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="CSS/util.css">
-	<link rel="stylesheet" type="text/css" href="CSS/plantilla.css">
-	<link rel="stylesheet" type="text/css" href="CSS/fonts/fonts.css">
-	<link rel="stylesheet" type="text/css" href="JS/drawing/drawing.css">
-	<link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css">
-	<script defer type="text/javascript" src="JS/markdown.js"></script>
-	<script defer type="text/javascript" src="JS/usemarkdown.js"></script>
-	<script defer type="text/javascript" src="JS/setinterval.js"></script>
-	<script language= "javascript" type="text/javascript" src="JS/drawing/jquery-2.1.1.min.js"> </script>
-	<script language= "javascript" type="text/javascript" src="JS/drawing/dist/drawingboard.js"> </script>
-	<script type="text/javascript" src="JS/menuthing.js"></script>
-	<meta charset="UTF-8">
-	<title>logbook</title>
-</head>
-<body>
+
 	<header id="_header" class="format">
 		<div class="centrary">
 			<div class="titulo">
@@ -37,7 +19,7 @@
 		<li class="icons a-btn">
 			<a href="#book">
 				<span></span>
-                <span class="cent_img"><img src="CSS/img/cerrado.png" alt="cerrado"></span>
+                <span class="cent_img"><%= image_tag("cerrado.png", :alt=>"cerrado")%></span>
                 <span class="cent_txt">Book</span>
 			</a>
 		</li>
@@ -45,7 +27,7 @@
 		<li class="icons a-btn">
 			<a href="#port">
 				<span></span>
-                <span class="cent_img"><img src="CSS/img/lapiz.png" alt="lapiz"></span>
+                <span class="cent_img"><%= image_tag("lapiz.png", :alt=> "lapiz") %></span>
                 <span class="cent_txt">Draw</span>
 			</a>
 		</li>
@@ -85,8 +67,9 @@
 	</section>
 	<section id="port" class="mainSection b_Sect">
 		<div id="proy_drawing" class="drawing_board"></div>
+		<button class="drawing-board-control-download-button">Save</button>
 	</section>
-</body>
+
 <footer id="footer" class="footer nav_color">
 	<a href="#_header"><div class="box_foot verticaly"></div></a>
 	<p class="brand">TEAMWORK</p>
@@ -115,4 +98,4 @@ Esto era una flecha que te regresaba a top
 </footer class="downarro">
 -->
 </footer>
-</html>
+

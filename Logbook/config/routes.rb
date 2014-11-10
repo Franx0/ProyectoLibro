@@ -16,6 +16,10 @@ Rails.application.routes.draw do
 resources :home do
   resources :users
 end
+
+resources :users do 
+  resources :myworks
+end
   # Example resource route with options:
   #   resources :products do
   #     member do
