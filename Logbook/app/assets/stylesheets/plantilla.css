@@ -69,7 +69,10 @@ nav{
 	float: right;
 	padding:0.8% 5% 0.8% 0;
 }
-
+.float_left {
+	float: left;
+	padding:0.8% 5% 0.8% 0;
+}
 .botones {
 	background-color:white;
 	width: auto;
@@ -395,7 +398,6 @@ footer:hover{
 
 
 */
-
 
 
 .downarro {

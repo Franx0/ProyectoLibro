@@ -2,42 +2,38 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-.myworks{
-	position: relative;
+body{
+	background-color: #E0E0E0;
 }
-.myworks h1{
-	color: #22AFAB;
-	font-family: 'bonvenocflight';
-	font-size: 30px;
-	font-weight: bold;
-	display:block;
-	float: left;
-	height: 6.5%;
-	margin: 10% 5%;
+.myworks {
+  	font-family: "bonvenocflight";
+  	margin: 4% 5%;
+}
+
+.myworks ul {
+	font-size: 21px; 
+	width: 100%;
 	text-align: center;
 }
-.myworks ul {
-	font-family: 'bonvenocflight';
-	font-size: 21px;
-	font-weight: bold;
-	margin-left: 10%;
-	padding:8% 0; 
-}
 .myworks li {
-	height: 200px;
-	width: 200px;
+	background-color: #fff;
+	height: 250px;
+	width: 250px;
 	border: solid 5px #22AFAB;
-	border-radius: 50%;
 	list-style: none;
 	padding: 0;
-	position: absolute;
-	top: 15%;
-	left:40%;
+	margin: 4% 1%;
+	display: inline-block;
+	border-radius: 20px;
+	position: relative;
 }
-.menuMyworks {
-	width: 15%;
-  	font-family: "bonvenocflight";
-  	background-color: #606060;
-  	border-radius: 20px;
-  	margin: 5%;
+
+.infoMyworks li p{
+	font-size: 18px;
+	position: absolute;
+	bottom: -30px;
+	left:15px;
+}
+.infoMyworks a{
+	display:block;
 }

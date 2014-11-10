@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+	has_many :myworks
+	
     def index
         render 'login'
     end
