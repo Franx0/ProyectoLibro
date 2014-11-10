@@ -5,8 +5,8 @@ class UsersController < ApplicationController
     end
 
     def show
-        @user=User.find_by_name(params[:id])
-        @user=User.all
+        @users=User.all
+        @user=@users.find_by_name(params[:id])
         render 'logbook'
     end
 end

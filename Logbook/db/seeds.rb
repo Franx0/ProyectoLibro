@@ -13,3 +13,21 @@ estela=User.create(
     nickname: 'estela',
     password: '123456'
     )
+
+miguel=User.create(
+    name: 'Miguel',
+    surname: 'Herias',
+    birthdate: '02/01/87',
+    mail: 'miguelesguay@gmail.com',
+    nickname: 'miguel',
+    password: '123456'
+    )
+
+fran=User.create(
+    name: 'Fran',
+    surname: 'Moya',
+    birthdate: '02/01/87',
+    mail: 'franesguay@gmail.com',
+    nickname: 'fran',
+    password: '123456'
+    )
