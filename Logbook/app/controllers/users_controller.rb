@@ -1,15 +1,13 @@
 class UsersController < ApplicationController
-
-	has_many :myworks
-	
+	before_action :authenticate_user!, only: :show
     def index
-        render 'login'
+        render 'home/logbook'
     end
 
     def show
         @users=User.all
         @user=@users.find_by_name(params[:id])
-        render 'logbook'
+        render 'home/logbook'
     end
 end
 

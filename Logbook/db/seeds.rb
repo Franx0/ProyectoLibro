@@ -9,25 +9,28 @@ estela=User.create(
     name: 'Estela',
     surname: 'Pedrero',
     birthdate: '02/01/87',
-    mail: 'estelaesguay@gmail.com',
+    email: 'estelapedrero@gmail.com',
     nickname: 'estela',
-    password: '123456'
+    password: '123456789',
+    password_confirmation: '123456789'
     )
 
 miguel=User.create(
     name: 'Miguel',
     surname: 'Herias',
-    birthdate: '02/01/87',
-    mail: 'miguelesguay@gmail.com',
+    birthdate: '12/11/86',
+    email: 'runecookie@gmail.com',
     nickname: 'miguel',
-    password: '123456'
+    password: '123456789',
+    password_confirmation: '123456789'
     )
 
 fran=User.create(
     name: 'Fran',
     surname: 'Moya',
-    birthdate: '02/01/87',
-    mail: 'franesguay@gmail.com',
+    birthdate: '08/03/89',
+    email: 'franesguay@gmail.com',
     nickname: 'fran',
-    password: '123456'
+    password: '123456789',
+    password_confirmation: '123456789'
     )

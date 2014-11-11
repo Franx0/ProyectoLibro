@@ -1,3 +1,4 @@
+
 <header id="_header" class="format">
 	<div class="centrary">
 		<div class="titulo">
@@ -6,13 +7,20 @@
 		</div>
 	</div>
 	<nav id="_nav" class="nav_color texto_nav">
-		<div class="float_right">
-			<a href="login" class="link_nav">log in</a>
-			<a href="registro" class="link_nav">sign up</a>
-			<a href="#footer" class="link_nav">about us</a>
-		</div>
+		<div class="float_right">	
+
+<% if user_signed_in? %>
+	<p>Welcome <%= current_user.name %></p>
+    <p><%= link_to 'Logout',destroy_user_session_path, method: 'DELETE' %></p>
+<% else %>
+    <a href="login" class="link_nav">log in</a>
+	<a href="registro" class="link_nav">sign up</a>
+	<a href="#footer" class="link_nav">about us</a>
+ <% end %>
+				
+			</div>
 		</nav>
-</header>	
+	</header>	
 	<section class="botones">
 	<ul>
 		<li class="icons a-btn">
@@ -58,10 +66,11 @@
 		          </a>
 		      	</li>
 	      </ul>			
-
 	    </nav>
 	</aside>
+		
 		<textarea id="input" class="markDown"></textarea>
+		
 		<div id="preview" class="markDown"></div>
 	</section>
 	<section id="port" class="mainSection b_Sect">
@@ -88,13 +97,5 @@
 		<li><a href="https://www.linkedin.com/in/estelapedrero">&#xf0e1;</a></li>
 	</ul>
 	<p class="brandcopy">&copylogbook</p>
-	<!--
-Esto era una flecha que te regresaba a top
-	<div id= "fin" class= "nav_color"></div>
-<footer class="foosadter_log">
-	<a href="#_header"><div class= "uparro"></div></a>
-	<a href="#fin"><div class= "downarro"></div></a>
-</footer class="downarro">
--->
 </footer>
 
