@@ -29,7 +29,7 @@ fran=User.create(
     name: 'Fran',
     surname: 'Moya',
     birthdate: '08/03/89',
-    email: 'franesguay@gmail.com',
+    email: 'franxo_2606@hotmail.com',
     nickname: 'fran',
     password: '123456789',
     password_confirmation: '123456789'
