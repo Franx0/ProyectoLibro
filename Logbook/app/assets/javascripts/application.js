@@ -12,8 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree ./drawing
+//= require microevent
+//= require board
 //= require_tree .
+
 
 
 
