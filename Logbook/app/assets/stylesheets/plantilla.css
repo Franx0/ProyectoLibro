@@ -374,6 +374,38 @@ footer:hover{
 .login li:first-child{
 	padding-top: 20px;
 }
+.actions{
+	font-size:18px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	font-family:'bonvenocflight';
+}
+
+.actions p{	
+	margin: 8px;
+}
+.actions input {
+	font-family:'bonvenocflight';
+	font-size: 18px;
+	background-color: #22AFAB;
+	color: white;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+.unhappy{
+	font-size:14px;
+	padding-top: 10px;
+	text-align: center;
+	font-family:'bonvenocflight';
+}
+.unhappy input {
+	font-family:'bonvenocflight';
+	font-size: 16px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	background-color:#C0C0C0;
+}
 .rememberMe{
 	font-size:16px;
 	padding: 10px;
@@ -425,6 +457,14 @@ footer:hover{
 	font-size: 44px;
 	color: #22AFAB;
 	margin: 0 70px -35px 0;
+}
+.titulo3 p{
+	font-family: 'kaushan_scriptregular';
+	font-size: 44px;
+	color: #22AFAB;
+	width: 500px;
+	margin: 30px auto;
+	text-align: center;
 }
 /* BOTONES Y UPARROW
 
