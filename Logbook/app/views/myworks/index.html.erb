@@ -1,11 +1,11 @@
 <nav id="_nav" class="nav_color texto_nav">
-	<div class="float_left"><a href="" class="link_nav">welcome <%=  %></a>
+	<div class="float_left">
+	<p> myworks</p>
+	<p><%= link_to 'editar perfil', edit_user_registration_path  %></p>
 </div>
 	<div class="float_right">
-		<a href="" class="link_nav">perfil</a>
-		<a href="" class="link_nav">my books</a>
-		<a href="" class="link_nav">my images</a>
-		<a href="" class="link_nav">new</a>
+		
+		<p><%= link_to 'new', home_index_path  %></p>
 	</div>
 </nav>
 

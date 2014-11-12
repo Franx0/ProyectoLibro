@@ -7,18 +7,24 @@
 		</div>
 	</div>
 	<nav id="_nav" class="nav_color texto_nav">
-		<div class="float_right">	
+			
 
 <% if user_signed_in? %>
+	<div class="float_left">
 	<p>Welcome <%= current_user.name %></p>
-    <p><%= link_to 'Logout',destroy_user_session_path, method: 'DELETE' %></p>
+	</div>
+
+	<div class="float_right">
+		<p><%= link_to 'myworks' %></p>
+		<p><%= link_to 'Logout',destroy_user_session_path, method: 'DELETE' %></p>
+	</div>
 <% else %>
+	<div class="float_right">
     <a href="login" class="link_nav">log in</a>
 	<a href="registro" class="link_nav">sign up</a>
 	<a href="#footer" class="link_nav">about us</a>
+	</div>
  <% end %>
-				
-			</div>
 		</nav>
 	</header>	
 	<section class="botones">

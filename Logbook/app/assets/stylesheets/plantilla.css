@@ -70,7 +70,14 @@ nav{
 }
 .float_left {
 	float: left;
-	padding:0.8% 5% 0.8% 0;
+	padding:0.8% 0 0.8% 3%;
+}
+.float_left p{
+	display: inline-block;
+	font-weight:bold;
+}
+.float_right p{
+	display: inline-block;
 }
 .botones {
 	background-color:white;
@@ -175,7 +182,6 @@ footer:hover{
 	font-family: 'bonvenocflight';
 	font-size: 150%;
 	color: #000000;
-
 }
 .link_nav {
 	padding-left: 50px;
