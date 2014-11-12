@@ -68,14 +68,11 @@
 	      </ul>			
 	    </nav>
 	</aside>
-	<%= form_for [@users, @mywork] do |f| %>
+
 		<textarea id="input" class="markDown">
-			<% f.text_field :markdown %>
+			
 		</textarea>
-		<%= f.datetime_select(:mdate, default: Time.now) %>
-		<%= f.submit "Save" %>
-	<% end %>
-		<%= link_to (submit_tag "Cancel"),user_myworks_path, method: GET %>
+	
 
 
 		<div id="preview" class="markDown"></div>
