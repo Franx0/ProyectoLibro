@@ -4,7 +4,7 @@ class MyworksController < ApplicationController
 	def index
         @user = User.find_by(id: params[:id], id: current_user.id)
         if !@user
-        	render 'home/logbook'
+        	redirect_to login
         end
   end
 end
