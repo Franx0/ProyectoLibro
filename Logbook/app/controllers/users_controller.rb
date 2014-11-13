@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 	
     def index
     	@user = User.find_by_name(params[:id])
-        render 'home/logbook'
+      render 'home/logbook'
     end
 
     def update

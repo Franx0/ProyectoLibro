@@ -1,5 +1,5 @@
 //Here we call Markdown
-var text=document.getElementById('input');
+var text=document.getElementById('mywork_markdown');
 var result=document.getElementById('preview');
 var change=document.getElementById('boton');
 

@@ -75,14 +75,17 @@
 	    </nav>
 	</aside>
 
-		<textarea id="input" class="markDown">
-			
-		</textarea>
-	
+		<!-- <textarea id="input" class="markDown"></textarea> -->
+	<div class="markDown">
+		<%= form_for [current_user, @mywork] do |text| %>
+		<%= text.text_area :markdown %>
+	</div>	
+	<%= text.submit "save" %>
+	<% end %>
+	<div id="preview" class="markDown"></div>
 
-
-		<div id="preview" class="markDown"></div>
 	</section>
+
 	<section id="port" class="mainSection b_Sect">
 		<div id="proy_drawing" class="drawing_board"></div>
 		<button class="drawing-board-control-download-button">Save</button>

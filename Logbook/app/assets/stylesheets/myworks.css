@@ -17,11 +17,9 @@ body{
 }
 .myworks li {
 	background-color: #fff;
-	height: 250px;
-	width: 250px;
 	border: solid 5px #22AFAB;
 	list-style: none;
-	padding: 0;
+	padding: 35px;
 	margin: 4% 1%;
 	display: inline-block;
 	border-radius: 20px;
