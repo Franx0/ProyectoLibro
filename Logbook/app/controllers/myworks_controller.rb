@@ -1,8 +1,9 @@
 class MyworksController < ApplicationController
 	before_action :authenticate_user!, only: :index
 
-	def index 
-    @mywork = current_user.myworks.new
+	def index
+    @user = current_user
+    @myworks = @user.myworks.all
   end
 
   def show
@@ -12,6 +13,10 @@ class MyworksController < ApplicationController
   def new
     @user= User.find(params[:id])
     @mywork = current_user.myworks.new myworks_params
+  end
+  def destroy
+    mywork = Mywork.destroy(params[:id])
+    redirect_to myworks_path mywork.user
   end
 
   def create
@@ -23,6 +28,7 @@ class MyworksController < ApplicationController
   else
     render 'logbook'
   end
+
   end
 
 protected

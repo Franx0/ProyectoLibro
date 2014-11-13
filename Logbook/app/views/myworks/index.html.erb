@@ -11,7 +11,10 @@
 
 <section class="myworks infoMyworks">
 	<ul> 
-		<li><%= @mywork %></li>
+		<% @myworks.each do |mywork| %>
+		<li><%= mywork.markdown %>
+			<%= link_to 'delete', mywork_path(mywork), method: 'delete' %></li>
+		<% end %>
 		
 	</ul>
 </section>
