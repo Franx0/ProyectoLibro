@@ -1,7 +1,10 @@
 class HomeController < ApplicationController
-before_action :authenticate_user!, only: :index
-    def index
-    		@mywork = current_user.myworks.new
-     		render 'logbook'
-    end
+  def index
+   	if user_signed_in?
+   		@mywork = current_user.myworks.new
+   		render 'logbook'
+   	else 
+   	  render 'logbook'
+		end
+	end
 end

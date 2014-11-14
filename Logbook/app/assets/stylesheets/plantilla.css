@@ -273,6 +273,14 @@ footer:hover{
 
 .a_Sect{
 	background-color: #606060;
+	position: relative;
+}
+.link_login{
+	font-family: 'bonvenocflight';
+	position:absolute;
+	top: 90px;
+	left: 300px;
+	font-weight: bold;
 }
 .b_Sect{
 	background-color: #C0C0C0;

@@ -27,7 +27,7 @@
  <% end %>
 		</nav>
 	</header>	
-	<section class="botones">
+<section class="botones">
 	<ul>
 		<li class="icons a-btn">
 			<a href="#book">
@@ -74,22 +74,26 @@
 	      </ul>			
 	    </nav>
 	</aside>
+<% if !user_signed_in? %>
+	<div class="link_login"><%= link_to 'haz LOGIN para guardar tus cambios!', new_user_session_path %></div>
+	<textarea id="input" class="markDown mywork_markdown"></textarea>
 
-		<!-- <textarea id="input" class="markDown"></textarea> -->
+<% else %>
 	<div class="markDown">
 		<%= form_for [current_user, @mywork] do |text| %>
 		<%= text.text_area :markdown %>
 	</div>	
 	<%= text.submit "save" %>
 	<% end %>
-	<div id="preview" class="markDown"></div>
+<% end %>
+	<div id="preview" class="markDown markdownPreview"></div>
 
-	</section>
+</section>
 
-	<section id="port" class="mainSection b_Sect">
-		<div id="proy_drawing" class="drawing_board"></div>
-		<button class="drawing-board-control-download-button">Save</button>
-	</section>
+<section id="port" class="mainSection b_Sect">
+	<div id="proy_drawing" class="drawing_board"></div>
+	<button class="drawing-board-control-download-button">Save</button>
+</section>
 
 <footer id="footer" class="footer nav_color">
 	<a href="#_header"><div class="box_foot verticaly"></div></a>
