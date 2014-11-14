@@ -2,9 +2,9 @@
 var text=document.getElementsByClassName('mywork_markdown');
 var result=document.getElementById('preview');
 
-text.onkeyup = function(){
+text[0].onkeyup = function(){
 	console.log("hoala")
-	result.innerHTML=marked(text.input.value);
+	result.innerHTML=marked(text[0].value);
 };
 
 //Here we change 'Preview' class and 'Buttons' class

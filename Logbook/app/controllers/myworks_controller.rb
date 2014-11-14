@@ -28,7 +28,18 @@ class MyworksController < ApplicationController
   else
     render 'logbook'
   end
+end
 
+  def edit
+    @user = current_user
+    @mywork = Mywork.find(params[:id])
+  end
+
+  def update
+    @mywork = Mywork.find(params[:id])
+    if @mywork.update_attributes myworks_params
+      redirect_to myworks_path(@mywork)
+    end
   end
 
 protected

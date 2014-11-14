@@ -13,7 +13,9 @@
 	<ul> 
 		<% @myworks.each do |mywork| %>
 		<li><%= mywork.markdown %>
-			<%= link_to 'delete', mywork_path(mywork), method: 'delete' %></li>
+		</li>
+		<%= link_to 'edit', edit_mywork_path(mywork) %>
+		<%= link_to 'delete', mywork_path(mywork), method: 'delete' %>
 		<% end %>
 		
 	</ul>

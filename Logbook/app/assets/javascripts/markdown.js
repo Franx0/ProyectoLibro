@@ -1131,7 +1131,7 @@ function merge(obj) {
 /**
  * Marked
  */
-var getText=document.getElementById('input').value;
+var text=document.getElementsByClassName('mywork_markdown').value;
 var text=document.createTextNode('getText')
 function marked(src, opt, callback) {
   if (callback || typeof opt === 'function') {
