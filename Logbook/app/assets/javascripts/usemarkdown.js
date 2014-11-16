@@ -2,8 +2,8 @@
 var text=document.getElementsByClassName('mywork_markdown');
 var result=document.getElementById('preview');
 
+
 text[0].onkeyup = function(){
-	console.log("hoala")
 	result.innerHTML=marked(text[0].value);
 };
 
@@ -33,6 +33,7 @@ texto3.onclick=function(){
 
 function buttonDefault(font, button){
 
+
 	if(resultClass.contains(font)){
 		result.className=('markDown');	
 		button.className=(font+' classButtons');
@@ -42,6 +43,8 @@ function buttonDefault(font, button){
 		button.className=(font+' classButtons'+' activeButtons');
 	}
 };
+
+
 
 //Drawing variable
 var myBoard = new DrawingBoard.Board('proy_drawing');

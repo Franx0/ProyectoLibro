@@ -11,7 +11,7 @@
 
 <% if user_signed_in? %>
 	<div class="float_left">
-	<p>Welcome <%= current_user.name %></p>
+		<p>Welcome <%= current_user.name %></p>
 	</div>
 
 	<div class="float_right">
@@ -20,9 +20,9 @@
 	</div>
 <% else %>
 	<div class="float_right">
-    <a href="login" class="link_nav">log in</a>
-	<a href="registro" class="link_nav">sign up</a>
-	<a href="#footer" class="link_nav">about us</a>
+    	<a href="login" class="link_nav">log in</a>
+		<a href="registro" class="link_nav">sign up</a>
+		<a href="#footer" class="link_nav">about us</a>
 	</div>
  <% end %>
 		</nav>
@@ -80,19 +80,19 @@
 
 <% else %>
 	<div class="markDown">
-		<%= form_for [current_user, @mywork] do |text| %>
+	<%= form_for [current_user, @mywork] do |text| %>
 		<%= text.text_area :markdown, :class => 'mywork_markdown' %>
+		<input type='hidden' name='clase' value=resultClass[0]/>
 	</div>	
-	<%= text.submit "save" %>
+		<%= text.submit "save" %>
 	<% end %>
 <% end %>
 	<div id="preview" class="markDown"></div>
 
 </section>
 
-<section id="port" class="mainSection b_Sect">
+<section id="port" class="mainSection">
 	<div id="proy_drawing" class="drawing_board"></div>
-	<button class="drawing-board-control-download-button">Save</button>
 </section>
 
 <footer id="footer" class="footer nav_color">

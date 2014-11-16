@@ -12,10 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require microevent
-//= require board
-//= require markdown
-//= require usemarkdown
 //= require_tree .
 
 

@@ -221,7 +221,7 @@ footer:hover{
 }
 .markDown textarea{
 	width: 100%;
-	height: 500px;
+	height: 605px;
 	vertical-align: top;
 	word-wrap:break-word;
 }
@@ -327,7 +327,7 @@ footer:hover{
     -moz-box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
     box-shadow:0px 0px 5px 0px rgba(160,160,160, 0.5) inset, 0px -1px 5px 4px rgba(160,160,160, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(192,192,192, 0.6), 0px 0px 0px 9px #fff;
 }
-.a-btn:hover spanfo:nth-child(3){
+.a-btn:hover span:nth-child(3){
     opacity:1;
 }
 .a-btn:hover span:nth-child(2){
